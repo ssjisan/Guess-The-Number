@@ -22,13 +22,11 @@ function playGame() {
     displayResult(receivedNumbers);
     saveGuess(receivedNumbers)
     displayHistory();
-    console.log(receivedNumbers);
 }
 
 function getRandomNumber(){
     let randomNumber = Math.floor(Math.random()*100);
-    console.log(randomNumber);
-    return(randomNumber);
+   return(randomNumber);
 }
 
 
